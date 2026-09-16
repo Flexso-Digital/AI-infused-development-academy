@@ -35,6 +35,8 @@ Stijn Verdoodt (`SV`) would use package `ZCARRENTAL_SV` and object suffix `_SV`.
 | Selva Kumar Muthu Gopal | SMG |
 | Toon Van Lishout | TVL |
 | Kim Uyttebrouck | KU |
+| Jonathan Maesen | JM |
+| Felipe Rezende Bastos | FRB |
 
 </details>
 
