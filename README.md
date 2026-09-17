@@ -271,25 +271,22 @@ The facilitators will provide the BAS access details, destination name, and
 service name for the fallback backend. Consume the fallback's API and metadata
 only; do not copy or change its implementation or run its seed/reset tools.
 
-1. Log in to [SAP BTP Cockpit](https://cockpit.btp.cloud.sap) with your workshop
-   SAP account and select the **flexsonv-05** account.
-2. Select the **Flexso AI Development Academy** subaccount.
-3. Open **Instances and Subscriptions**.
-4. Open **SAP Build Code**. Use the **product switcher** in the top-right corner and
-   choose **Dev Space Manager** to access **SAP Business Application Studio**.
+1. Open [SAP Business Application Studio](https://flexso-ai-development-academy.eu10.build.cloud.sap/index.html)
+   directly and sign in with your SAP account.
+2. Use the **product switcher** in the top-right corner and choose **Dev Space Manager**.
 
    ![SAP Build product switcher showing Dev Space Manager](product-switcher.png)
 
-5. Click **Create Dev Space**, enter a name using your initials in lowercase
+3. Click **Create Dev Space**, enter a name using your initials in lowercase
    (for example, `carrental-sv` for `SV`), select **SAP Fiori**, and create the
    dev space.
-6. Wait until its status is **RUNNING**, then click its name to open BAS.
-7. GitHub Copilot is already available in BAS; do not install it. Open
+4. Wait until its status is **RUNNING**, then click its name to open BAS.
+5. GitHub Copilot is already available in BAS; do not install it. Open
    **Copilot Chat**, sign in to GitHub with the account that has Copilot access,
    and complete the browser authorization prompts. Sign-in is required to access
    the workshop's required models; confirm that you can select one before you
    continue.
-8. Switch Copilot Chat to **Agent** mode, attach your specification, and use the
+6. Switch Copilot Chat to **Agent** mode, attach your specification, and use the
    prompt below. Replace `<INITIALS>` and `<SERVICE_NAME>` with
    your uppercase initials and the service you will
    use: your own backend or the `ZCARRENTAL_FLEXSO` fallback.
